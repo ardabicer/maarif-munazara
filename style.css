@@ -1,0 +1,178 @@
+/* Bu d�k�man CSSDERS.COM taraf�ndan kodlanm��t�r */
+
+/*----- RESET -----*/
+body {margin: auto; font: 12px Tahoma;}
+img {border: none;}
+a {text-decoration: none; color: #185798;}
+table, tr, td, h1, h2, h3, h4, h5, h6, p, pre, ul, li, input, textarea {margin: 0px; padding: 0px; border: none;}
+:focus {outline: none;}
+/*-----------------*/
+
+/* Navbar */
+#nav {background: url(images/sol-bas.png) repeat-x; height: 35px;}
+.nav {width: 940px; margin: 0px auto; padding: 10px; color: #fff;}
+.nav a {color: #fff; padding: 10px; text-shadow: 1px 1px 3px #000;}
+
+/* Header */
+#header {background: url(images/header.png); width: 100%; height: 94px;}
+.header {width: 960px; height: 90px; margin-left: 285px; margin-top: 5px;}
+
+	/* Arama */
+	#arama {float: right; margin: 35px 3px;}
+	.arama-input {background: url(images/arama-input.png); width: 209px; height: 35px;}
+	.arama-input input {background-color: transparent; padding: 9px; width: 190px; font-weight: bold;}
+	.ara-input {background: url(images/ara-input.png); width: 34px; height: 35px;}
+	
+/* Genel */
+#genel {width: 960px; margin: 0px auto;}
+	
+/* Sol */
+#sol {float: left; width: 230px; margin-top: 19px;}
+
+	/* Sol Ba�l�k */
+	.sol-bas {background: url(images/sol-bas.png); width: 230px; height: 35px;}
+	.sol-bas2 {color: #fff; font-size: 14pt; font-family: Trebuchet MS; padding: 4px 10px;}
+
+
+	/* Kategoriler */
+	#kategori {background-color: #eee;}
+	#kategori a {background: url(images/ok.png) no-repeat 1px; display: block; padding: 5.2px 20px; border-bottom: 1px solid #fff; border-top: 1px solid #ddd; color: #333333;}
+	.sol-button a:hover {background-color: #185798; color: #fff;}
+
+
+/* Orta */
+#orta {width: 480px; float: left; margin: 5px 10px 10px 10px; background-color: #eee;}
+
+	/* Orta Ba�l�k */
+	.orta-bas {background: url(images/sol-bas.png); width: 480px; height: 35px;}
+	.orta-bas2 {color: #fff; font-size: 14pt; font-family: Trebuchet MS; padding: 4px 10px;}
+	.orta-sure {
+    background: #eee;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 825px;
+}
+	/* Makaleler */
+	.makale {padding: 5px; border-bottom: 3px solid #ddd;}
+	.makale h1 a{font-size: 13pt; padding: 2px 10px 2px 0;}
+	.makale p {padding: 1px 12px; color: #5e5e5e; text-align: justify;}
+	.makale-resim {float: left; margin-right: 5px;}
+	.makale-resim img {width: 100px; height: 100px;}
+	.makale-alt {text-align: right; padding: 3px; color: #bababa;}
+	.makale-alt a{padding: 3px 5px;}
+	.makale-alt a:hover {background-color: #185798; color: #fff;}
+	
+	/* S�ralama */
+	#siralama {padding: 10px; border-bottom: 3px solid #ddd;}
+	.siralama1 span {background-color: #185798; padding: 5px 10px; color: #fff; margin-right: 2px;}
+	.siralama1 a {padding: 5px 10px; margin-right: 2px; background-color: #fff; border: 1px solid #ccc;}
+	.siralama1 a:hover {background-color: #185798; color: #fff;}
+	.yazarr {
+    background: #eee;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 810px;
+}
+	.yazar2 {
+	margin-top: -16px;
+    margin-left: 765px;}
+/* Sa� */
+#sag {width: 230px; float: left; margin-top: 5px;}
+
+	/* Sa� Ba�l�k */
+	.sag-bas {background: url(images/sol-bas.png); width: 230px; height: 35px;}
+	.sag-bas2 {color: #fff; font-size: 14pt; font-family: Trebuchet MS; padding: 4px 10px;}
+	
+	/* Ar�iv */
+	#arsiv {background-color: #eee; border-bottom: 3px solid #ddd; margin-bottom: 4px;}
+	#arsiv a {background: url(images/ok.png) no-repeat 1px; display: block; padding: 7.3px 20px; border-bottom: 1px solid #fff; border-top: 1px solid #ddd; color: #333333;}
+	
+	/* Hit Konular */
+	#hit-konular {background-color: #eee; border-bottom: 3px solid #ddd; margin-bottom: 10px;}
+	#hit-konular a {display: block; padding: 5px 20px; background: url(images/ok2.png) no-repeat 1px; border-bottom: 1px solid #fff; border-top: 1px solid #ddd;}
+	
+/* Footer */
+#footer {background: url(images/footer.png);position: fixed; left:0; bottom:0; width: 100%; height: 65px;}
+.footer {position: fixed; left:0; bottom:0;width: 940px; margin-bottom: 50px ; padding: 0px 0px 0px 10px; color: #636363;}
+.footer a {padding: 2px 5px;}
+.footer2 {padding: 10px 5px;margin-left: 5px;}
+.footer2 {position: fixed; left:0; bottom:0;width: 940px;margin-left: 5px;padding: 0px 0px 0px 10px; color: #636363;}
+.footer2 a {padding: 2px 7px;}
+
+.footer3 {padding: 10px 5px;margin-bottom: 14px;margin-right: 10px;}
+.footer3 {position: fixed; bottom:0;width: 940px;padding: 10px 0px 0px 10px; color: #636363;}
+.footer3 a {padding: 2px 10px;}
+.footer3 img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.footer4 {padding: 10px 5px;margin-bottom: 14px;margin-left: 42px;}
+.footer4 {position: fixed; bottom:0;width: 940px;padding: 10px 0px 0px 10px; color: #636363;}
+.footer4 a {padding: 20px 10px;}
+.footer4 img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.footer5 {padding: 10px 5px;margin-bottom: 14px;margin-left: 84px;}
+.footer5 {position: fixed; bottom:0;width: 940px;padding: 10px 0px 0px 10px; color: #636363;}
+.footer5 a {padding: 20px 10px;}
+.footer5 img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#orta {float: left; margin: 5px 10px 10px 10px;}
+
+	/* Orta Ba�l�k */
+	.orta-bas1 {background: url(images/sol-bas.png); width: 960px; height: 35px;border-radius: 7px;}
+	.orta-bas12 {color: #fff; font-size: 14pt; font-family: Trebuchet MS; padding: 5px 5px;}
+
+
